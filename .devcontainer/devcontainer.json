@@ -1,0 +1,27 @@
+{
+	"name": "atcoder_learning",
+	"image": "atcoder_learning:latest",
+	"workspaceFolder": "/workspace",
+	"workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"visualstudioexptteam.vscodeintellicode",
+				"ms-vscode.cpptools",
+				"xaver.clang-format",
+				"twxs.cmake",
+				"ms-vscode.cmake-tools",
+				"ms-python.python",
+				"ms-python.isort",
+				"ms-python.vscode-pylance",
+				"coenraads.bracket-pair-colorizer-2",
+				"oderwat.indent-rainbow",
+				"shardulm94.trailing-spaces",
+				"mosapride.zenkaku",
+				"yzhang.markdown-all-in-one",
+				"streetsidesoftware.code-spell-checker",
+				"vscode-icons-team.vscode-icons"
+			]
+		}
+	}
+}
