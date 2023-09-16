@@ -16,6 +16,7 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
     ca-certificates \
     vim \
     less \
+    tree \
     git \
     wget \
     unzip \
