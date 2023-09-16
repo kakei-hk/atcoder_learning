@@ -1,5 +1,8 @@
 {
-    "python.linting.enabled": true,
+	// common
+	"editor.formatOnSave": true,
+	// Python
+	"python.linting.enabled": true,
 	"python.linting.lintOnSave": true,
 	"python.linting.pylintEnabled": false,
 	"python.linting.pycodestyleEnabled": false,
@@ -8,8 +11,6 @@
 	"python.linting.flake8Args": [
 		"--ignore=W293, W504"
 	],
-	// Formatter
-	"editor.formatOnSave": true,
 	"python.formatting.provider": "black",
 	"python.formatting.blackPath": "/usr/local/bin/black",
 	"editor.codeActionsOnSave": {
@@ -26,5 +27,9 @@
 	"python.linting.mypyArgs": [
 		"--ignore-missing-imports",
 		"--follow-imports=skip"
-	]
+	],
+	// C++
+	"[cpp]": {
+		"editor.defaultFormatter": "ms-vscode.cpptools"
+	}
 }
